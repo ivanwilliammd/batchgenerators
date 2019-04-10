@@ -184,13 +184,13 @@ class MirrorTransform(AbstractTransform):
         axes (tuple of int): axes along which to mirror
 
     """
-    # def __init__(self, axes=(0, 1, 2), data_key="data", label_key="seg"):
-    def __init__(self, axes=(2, 3, 4), data_key="data", label_key="seg"):
+    def __init__(self, axes=(0, 1, 2), data_key="data", label_key="seg"):
+    # def __init__(self, axes=(2, 3, 4), data_key="data", label_key="seg"): # Before paul change cf.dim
         self.data_key = data_key
         self.label_key = label_key
         self.axes = axes
-        if max(axes) > 4:
-        # if max(axes) > 2:
+        # if max(axes) > 4: # Before paul change cf.dim
+        if max(axes) > 2:
             raise ValueError("MirrorTransform now takes the axes as the spatial dimensions. What previously was "
                              "axes=(2, 3, 4) to mirror along all spatial dimensions of a 5d tensor (b, c, x, y, z) "
                              "is now axes=(0, 1, 2). Please adapt your scripts accordingly.")
