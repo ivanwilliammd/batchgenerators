@@ -1,4 +1,4 @@
-Cloned from https://github.com/MIC-DKFZ/batchgenerators. All credits belong to original repos
+Cloned from https://github.com/MIC-DKFZ/batchgenerators. All credits belong to original repos (MIC@DFKZ team)
 
 # batchgenerators by MIC@DKFZ
 batchgenerators is a python package that we developed at the Division of Medical Image Computing at the German Cancer
