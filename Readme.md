@@ -1,3 +1,5 @@
+Cloned from https://github.com/MIC-DKFZ/batchgenerators. All credits belong to original repos
+
 # batchgenerators by MIC@DKFZ
 batchgenerators is a python package that we developed at the Division of Medical Image Computing at the German Cancer
 Research Center (DKFZ) to suit all our deep learning data augmentation needs.
