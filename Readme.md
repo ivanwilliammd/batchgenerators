@@ -1,6 +1,7 @@
 # Medical Batch Image Generator in Python
 Batch generators for Lung Nodule Detection using LIDC-IDRI & Other private datasets.
-Cloned & adjusted from old master branch of [batchgenerator by MIC@DFKZ](https://github.com/MIC-DKFZ/batchgenerators/commit/776f6c32c38934274f8faaf54c685ae16940e5be).
+Warning: Depecrated version (Apr 2019), Unstable
+For further fix, please clone/fork it directly from  master branch of [batchgenerator by MIC@DFKZ](https://github.com/MIC-DKFZ/batchgenerators/commit/776f6c32c38934274f8faaf54c685ae16940e5be).
 
 ## How to use:
 1. OS: Ubuntu (Windows not supported)
